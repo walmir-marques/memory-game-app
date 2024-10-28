@@ -1,46 +1,48 @@
-# Getting Started with Create React App
+# Memory-game-app 🐾 <br><br>
+Um aplicativo de jogo de memória para crianças, utilizando cartas de animais. Ao iniciar o jogo, um cronômetro é ativado para mostrar o tempo gasto para completar o jogo e o número de jogadas realizadas. <br><br>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📋 Descrição<br><br>
 
-## Available Scripts
+O memory-game-app é um jogo de memória interativo projetado para crianças, onde os jogadores devem combinar cartas de animais. O jogo começa com todas as cartas viradas para baixo e, ao clicar em uma carta, ela se vira para revelar o animal correspondente. O objetivo é encontrar pares de cartas iguais, enquanto um cronômetro rastreia o tempo total e o número de jogadas feitas. Este projeto foi desenvolvido com o intuito de proporcionar uma experiência lúdica e educativa, ajudando as crianças a aprimorarem suas habilidades de memória e concentração.<br><br>
 
-In the project directory, you can run:
+## 🛠️ Tecnologias Utilizadas<br><br>
 
-### `npm start`
+- React
+- TypeScript
+- CSS<br><br>
+💡 Conceitos Aprendidos e Aplicados<br><br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Utilização de TypeScript para adicionar tipagem estática e aumentar a segurança do código
+- Gerenciamento de estados em React para controlar o estado do jogo e das cartas
+- Implementação de um cronômetro para monitorar o tempo de jogo
+- Criação de uma interface interativa e amigável para crianças
+- Manipulação de eventos para responder às ações do usuário de forma dinâmica<br><br>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+## 🚀 Funcionalidades<br><br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Cartas de animais para combinar
+- Início de um cronômetro ao começar o jogo
+- Contagem do número total de jogadas realizadas
+- Feedback visual para indicar jogadas corretas e incorretas<br><br>
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🖥️ Como Executar o Projeto<br><br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Faça o download ou clone o repositório:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+``` git clone https://github.com/seu-usuario/memory-game-app.git ``` <br><br>
+Navegue até o diretório do projeto:
+ 
+``` cd memory-game-app ``` <br><br>
+Instale as dependências:
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+``` npm install ```  <br><br>
+Inicie a aplicação:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+``` npm start ``` <br><br>
+Abra o navegador e acesse:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+``` http://localhost:3000 ``` <br><br>
